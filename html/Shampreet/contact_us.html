@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title> Contact Us</title>
+    <link rel="stylesheet" href="../../css/shampreet-css/contact.css">   <!--Linking External css-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><!-- linking google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Play&family=Source+Serif+Pro:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/727be34303.js" crossorigin="anonymous">
+    </script><!-- linking font awsome for icon -->
+</head>
+
+<body>
+    <header class="header">
+        <!--navigaton tag for navbar -->
+        <nav>
+            <img src="../../media/Shampreet/images/logo.png" alt="logo">
+            <div class="anchor-container">
+                <a href="../../html/Shampreet/index.html"><i class="fa-solid fa-house"></i>&nbsp;&nbsp;Home</a>
+                <a href=" "><i class="fa-solid fa-address-card"></i>&nbsp;&nbsp;About Us </a>
+                <a href="https://www.cbc.ca/news/canada"><i class="fa-solid fa-newspaper"></i>&nbsp;&nbsp;News</a>
+                <a href="#"><i class="fa-solid fa-plane"></i>&nbsp;Look for places &nbsp;&nbsp;</a>
+                <input type="text" placeholder="Toronto,Vancouver,Montreal" id="place">
+                <i class="fa-solid fa-magnifying-glass fa-xs" onclick="search()"></i>
+            </div>
+        </nav>
+        </header>
+        <header class="mobheader">
+            <nav>
+                <a href="#"><img src="../../media/Shampreet/images/logo.png" alt="icon"></a>
+                <i class="fa-solid fa-bars" onclick="header()"></i>
+            </nav>
+            <div class="hamburgeroptions">
+                <a href="../../html/Shampreet/index.html"><i class="fa-solid fa-house"></i>&nbsp;&nbsp;Home</a>
+                <a href="#"><i class="fa-solid fa-address-card"></i>&nbsp;About Us</a>
+                <a href="#"><i class="fa-solid fa-plane"></i>&nbsp;Look for places</a>
+                <input type="text" placeholder="Toronto,Vancouver,Montreal" id="place2">
+                <i class="fa-solid fa-magnifying-glass fa-xs" onclick="search()"></i>
+                <a href="https://www.cbc.ca/news/canada" target="_blank"><i class="fa-solid fa-newspaper"></i>&nbsp;News</a>
+                
+            </div>
+        </header>
+            <h1>Contact Us</h1>
+        <div id="wrapper">
+          <!-- main tag describes the main content of the page -->
+        <main>
+            <div id="div1">
+            <fieldset id="f1"> <!--fieldset for personal details-->
+                <legend><i class="fa-solid fa-user"></i></legend>
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" placeholder="Enter Your First Name">&nbsp;<span>*</span><br>
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" placeholder="Enter Your Last Name">&nbsp;<span>*</span><br>
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email" placeholder="Enter Your E-Mail">&nbsp;<span>*</span><br>
+            </fieldset>
+            <br>
+            <fieldset id="f2"> <!--fieldset for message-->
+                <legend><i class="fa-solid fa-message"></i></legend>
+                <textarea id="message" placeholder="Enter Your Message"></textarea>
+            </fieldset><br><br>
+            <input type="button" value="Submit" id="submit" onclick="validate()"> <!-- submission button-->
+        </div>
+        <div id="div2">
+            <h3>You can also Connect With Us at</h3>
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook fa-2x"></i></a><br><br><br>
+            <a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-twitter fa-2x"></i></a><br><br><br>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-2x"></i></a><br><br><br>
+        </div>
+        </main>
+    </div>
+    <footer>
+        <!--footer tag for footer-->
+        <div class="col1">
+            <!--column 1-->
+            <ul>
+                <li><a href="../../html/Shampreet/index.html">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+        <div class="col2">
+            <!--column 2-->
+            <ul>
+                <li><a href="../../html/Shampreet/faq.html">FAQ</a></li>
+                <li><a href="../../html/Shampreet/feedback.html">Feedback</a></li>
+            </ul>
+        </div>
+        <div class="col3">
+            <!--column 3-->
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+    <script src="../../javascript/shampreet-js/contact-us.js"></script>
+</body>
+
+</html>

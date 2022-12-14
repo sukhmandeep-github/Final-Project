@@ -1,0 +1,649 @@
+  * {
+    margin: 0px;
+  }
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  img {
+    width: 200px;
+    height: 70px;
+  }
+  nav a {
+    text-decoration: none;
+    font-size: 20px;
+  }
+  #top{
+    background-color: #bc2b30;
+    font-size: 250%;
+    color: aliceblue;
+  }
+  .photo{
+    
+    height: 100vh;
+      max-width:100%;
+    background-image: url('../media/Sukhman/Images/bgimage.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+    
+    
+  }
+
+  .anchor-container {
+    
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 20px;
+    
+  }
+  .anchor-container a{
+    color: rgb(255, 255, 255);
+  }
+  .history {
+  display: grid;
+  width: 100%;
+  align-self: flex-end;
+  color: aliceblue;
+    font-size: 120%;
+    background-color: #bc2b30;
+   
+  }
+  h1{
+    padding: 15px;
+    margin-left: 20px;
+    align-items: center;
+  }
+  .our_city{
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+  }
+  .our_city h1{
+    font-size: x-large;
+  }
+  .our_city p1{
+    margin-top: 5%;
+    text-decoration:wavy;
+    padding: 0% 5%;
+  }
+  .moving_to_vancouver{
+    display: flex;
+    text-align: center;
+    justify-content:space-evenly;
+  }
+  .moving_to_vancouver h1{
+    font-size:x-large;
+  }
+  .moving_to_vancouver p1 {
+    text-decoration:wavy;
+    
+  text-align: center ;
+    padding: 5%;
+    padding-top: 8%;
+  }
+  h2{
+    padding: 15px;
+    align-items: center;
+    color: #bc2b30;
+  }
+  .free_resources{
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+  }
+  #free_resource {
+    margin: 0 2%;
+    background-color: #bc2b30;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration:wavy;
+  }
+  .free_resources p1{
+    margin-top: 45px;
+    text-decoration:wavy;
+  }
+  .around_vancouver{
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+  }
+  .around_vancouver h1{
+    font-size: x-large;
+  }
+  .around_vancouver p1{
+    margin-top: 5%;
+    text-decoration:wavy;
+    padding: 0% 5%;
+  }
+  .todos h1{
+    margin: 0 2%;
+    background-color: #bc2b30;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration:wavy;
+  }
+  .cards{
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  
+  .card {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+   border: 1px solid  #bc2b30;
+  }
+  .card img {
+    height: 200px;
+    width: 100%;
+  }
+  
+  .card .text {
+    align-self: center;
+  }
+  
+  .click {
+    background: #bc2b30;
+    border: 0;
+    color: white;
+    padding: 2px 2px 2px 2px;
+    text-decoration: none;
+    border-radius: 1.5px;
+    text-align: center;
+  }
+  .card img :hover{
+    transition: all 1.0s ease-in-out;
+  }
+  footer {
+    padding: 30px 20px 30px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #bc2b30;
+    gap: 150px;
+  }
+  footer li {
+    list-style: none;
+    margin: 10px;
+  }
+  footer li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  
+    transition: all 0.3s ease;
+  }
+  
+  footer li a:hover {
+    padding-left: 10px;
+    color: rgba(255, 255, 255, 0.73);
+  }
+  .col3 {
+    display: flex;
+    flex-wrap: wrap;
+    order:0 ;
+    justify-content: space-around;
+    gap: 50px;
+  }
+  
+  .col3 a:hover {
+    color: black;
+    
+  }
+  .emailsignup {
+    background-color: #1095c1;
+    /* height: 300px; */
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+  }
+  
+  .emailsignup .innerdiv {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+  }
+  
+  .emailsignup #sumbit {
+    padding: 6px 24px;
+  }
+  
+  .emailsignup #sumbit:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+      0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .emailsignup .subdiv label {
+    margin-right: 1em;
+  }
+  .emailsignup .subdiv input {
+    height: 2em;
+    width: 16em;
+  }
+  
+  .emailheading p {
+    color: #bc2b30;
+  }
+  .hamburgeroptions {
+    display: none;
+  }
+  
+  .mobheader {
+    display: none;
+  }
+  
+  
+/* from line 144 to 191 all t6his is used for forms */
+  .feedbackform{
+    margin: 1.5% 10%;
+    border: 10px;
+    background-color: rgb(211, 216, 255);
+    text-align: justify;
+    width: 70%;
+    padding-top: 30px;
+    border:3px solid rgb(255, 255, 255);
+   
+}
+.feedback{
+  display: flex;
+  display: inline-block;
+  padding-left: 25px;
+ 
+}
+.feedbackform h1{
+  text-align: center;
+  color: #bc2b30;
+  font-style: italic;
+}
+.feedbackform h3 {
+  text-align: center;
+  text-size-adjust: 200%;
+  color: rgb(0, 0, 0);
+}
+.feedbackform legend{
+  color: #bc2b30;
+}
+.rate {
+  float: left;
+  height: 46px;
+  padding: 0 10px;
+}
+.rate:not(:checked) > input {
+  position:absolute;
+  top:-9999px;
+}
+.rate:not(:checked) > label {
+  float:right;
+  width:1em;
+  overflow:hidden;
+  white-space:nowrap;
+  cursor:pointer;
+  font-size:30px;
+  color:#ccc;
+}
+.rate:not(:checked) > label:before {
+  content: '★ ';
+}
+.rate > input:checked ~ label {
+  color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+}
+
+
+
+.scale-rating{
+  display: flex;
+  justify-content: space-around;
+
+  
+
+}
+.info input{
+  text-align: left;
+    padding-right: 20%;
+    display: grid;
+    column-gap: 20%;
+}
+.userinfo{
+  display: grid;
+  column-gap: 10%;
+
+}
+legend{
+  font-size:x-large;
+  font-weight: bolder;
+  }
+
+
+
+
+
+
+  /* hotels page     below  */
+
+.hotel-list{
+  margin: 1%;
+  margin-bottom: 2%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+.hotel-col1 img{
+  display: flex;
+  align-items: center;
+  align-self: center;
+  width: 100%;
+  height:fit-content;
+}
+.hotel-col1{
+  width: 17%;
+  height: 20%;
+  
+}
+.hotel-col2{
+  width: 70%;
+  
+}
+.hotel-col3{
+  width: 10%;
+}
+.hotel-col3 button{
+  margin-left: 10%;
+  margin-top: 2%;
+  padding: 2%;
+  background-color: #bc2b30;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.hotel-col3 button:hover{
+  background-color:#1095c1;
+  ;
+}
+.hotel-col3 h4 {
+  text-align:end;
+}
+  
+
+
+/* things to do page below  */
+.thingstodoheading{
+  text-align: center;
+  color: #bc2b30;
+}
+.collection1{
+  margin: 0 6%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+#slides, #slides2, #slides3 , #slides4,#slides5 img {
+  height: 300px;
+  width: 550px;
+	display: none;
+}
+.box{
+  font-size: larger;
+  height: 300px;
+  color: #ffffff;
+  background-color: #bc2b30;
+}
+.box a{
+  background-color: #ffffff;
+  color: #bc2b30;
+display: flex;
+justify-content: center;
+margin-top: 20%;
+}
+.img_box img{
+  margin: auto;
+  height: 300px;
+  width:100% ;
+ 
+  
+}
+
+
+
+
+
+  @media only screen and (max-width: 870px){
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .hotel-list{
+      margin: 1%;
+      display: grid;
+      justify-content:space-around;
+      padding: 5% 2%;
+      padding-top: 0%;
+      
+    }
+    .hotel-col1{
+      margin: 2% 20%;
+      height: max-content;
+      width: 100%;
+      
+    }
+    .hotel-list img{
+      display: flex;
+      align-items: center;
+      align-self: center;
+      height:fit-content;
+      width: max-content;
+    }
+    .hotel-col2{
+
+      width:auto;
+    }
+    .hotel-col3{
+      width: auto;
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+      font-size:larger;
+      margin-top: 2%;
+      
+    }
+    .hotel-col3 a{
+      margin: 0%;
+      padding: 1%;
+      background-color: #bc2b30;
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      font-size: larger;
+    }
+    .hotel-col3 a:hover{
+      background-color:#1095c1;
+      ;
+    }
+    nav a {
+      text-decoration: none;
+      font-size: 7px;
+    }
+    #top{
+      background-color:#bc2b30;
+      font-size: 150%;
+      color: aliceblue;
+    }
+    .photo{
+      height: 100vh;
+      max-width:100%;
+      background-image: url('../media/Sukhman/Images/bgimage.jpg');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      display:flex;
+   
+    }
+    
+    .anchor-container {
+      
+      display: flex;
+      justify-content: space-around;
+      
+      
+    }
+    .anchor-container a{
+      color: rgb(255, 255, 255);
+    }
+    .history {
+    
+    display: flex;
+    width: 100%;
+    align-self: flex-end;
+    color: aliceblue;
+      font-size: 120%;
+     
+    }
+    h1{
+      
+      align-items: center;
+    }
+    .our_city{
+      display: grid;
+      text-align: center;
+      justify-content:space-between;
+    }
+    .our_city h1{
+      font-size: x-large;
+    }
+    .our_city p1{
+      margin-top: 15px;
+      text-decoration:wavy;
+    }
+    .moving_to_vancouver{
+      display: grid;
+      text-align: center;
+      justify-content:space-evenly;
+    }
+    .moving_to_vancouver h1{
+      font-size:x-large;
+    }
+    .moving_to_vancouver p1{
+      margin-top: 25px;
+      text-decoration:wavy;
+    }
+    h2{
+      
+      align-items: center;
+      color:#bc2b30
+    }
+    .free_resources{
+      display: grid;
+      text-align: center;
+      justify-content:space-between;
+    }
+    .free_resources p1{
+      margin-top: 15px;
+      text-decoration:wavy;
+    }
+    
+    .around_vancouver{
+      display: grid;
+      text-align: center;
+      justify-content:space-between;
+    }
+    .around_vancouver h1{
+      font-size: x-large;
+    }
+    .around_vancouver p1{
+      margin-top: 35px;
+      text-decoration:wavy;
+    }
+    footer {
+      padding: 10px 7px 10px 7px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      background-color: #bc2b30;
+      gap: 20px;
+    }
+    footer li {
+      list-style: none;
+      margin: 10px;
+    }
+    footer li a {
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+    
+      transition: all 0.3s ease;
+    }
+    
+    footer li a:hover {
+      padding-left: 10px;
+      color: rgba(255, 255, 255, 0.73);
+    }
+    .col3 {
+      display: flex;
+      flex-wrap: wrap;
+      order:0 ;
+      justify-content: space-around;
+      gap: 10px;
+    }
+    
+    .col3 a:hover {
+      color: black;
+      
+    }
+    .header {
+      display: none;
+    }
+  
+    .mobheader {
+      display: block;
+      background-color: #bc2b30;
+    }
+    .mobheader h1{
+      color: #ffffff;
+      text-align: left;
+    }
+    .displayoptions {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .hamburgeroptions a {
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+    }
+    .hamburgeroptions a:hover {
+      color: #bc2b30;
+      
+    }
+    .hamburgeroptions a :hover{
+      font-size: 2em;
+    }
+    .mobheader i {
+      color: #ffffff;
+      background-color: #bc2b30;
+      transition: 0.8s;
+    }
+  
+    .mobheader i:hover {
+      font-size: 1.2em;
+    }
+  
+  }

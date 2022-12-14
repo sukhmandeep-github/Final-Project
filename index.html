@@ -1,0 +1,148 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>home</title>
+    <link rel="stylesheet" href="../../css/shampreet-css/index.css"> <!-- linking external CSS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><!-- linking google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/727be34303.js" crossorigin="anonymous">
+    </script><!-- linking font awsome for icon -->
+</head>
+
+<body>
+    <header class="header">
+    <!--navigaton tag for navbar -->
+    <nav>
+        <img src="../../media/Shampreet/images/logo.png" alt="logo">
+        <div class="anchor-container">
+            <a href=" "><i class="fa-solid fa-address-card"></i>&nbsp;&nbsp;About Us </a>
+            <a href="../../html/Shampreet/contact_us.html"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;Contact Us</a>
+            <a href="https://www.cbc.ca/news/canada" target="_blank"><i class="fa-solid fa-newspaper"></i>&nbsp;News</a>
+            <a href="#"><i class="fa-solid fa-plane"></i>&nbsp;Look for places &nbsp;&nbsp;</a>
+            <input type="text" placeholder="Toronto,Vancouver,Montreal" id="place">
+            <i class="fa-solid fa-magnifying-glass fa-xs" onclick="search()"></i>
+        </div>
+  
+    </nav>
+    </header>
+    <header class="mobheader">
+        <nav>
+            <a href="#"><img src="../../media/Shampreet/images/logo.png" alt="icon"></a>
+            <i class="fa-solid fa-bars" onclick="header()"></i>
+        </nav>
+        <div class="hamburgeroptions">
+            <a href="#"><i class="fa-solid fa-address-card"></i>&nbsp;About Us</a>
+            <a href="../../html/Shampreet/contact_us.html"><i class="fa-solid fa-phone"></i>&nbsp;Contact Us</a>
+            <a href="#"><i class="fa-solid fa-plane"></i>&nbsp;Look for places</a>
+            <input type="text" placeholder="Toronto,Vancouver,Montreal" id="place2">
+            <i class="fa-solid fa-magnifying-glass fa-xs" onclick="search()"></i>
+            <a href="https://www.cbc.ca/news/canada" target="_blank"><i class="fa-solid fa-newspaper"></i>&nbsp;News</a>
+            
+        </div>
+    </header>
+    <!-- main tag describes the main content of the page -->
+    <main>
+        <div id="head">
+                <h1>CANADA'S BIG THREE</h1>
+                <p class="p1">We provide you with the all the information that you need for your trip to canada's major
+                    cities :
+                    Toronto, Vancouver and Quebec</p>
+                <p class="p1">Explore the cities best Hotels,Tourist attractions and many more things with ease</p><br>
+        </div>
+    </main>
+    <div id="images">
+        <!--div tag contaning images of different places-->
+        <figure><img class="subimg" src="../../media/Shampreet/images/toronto_skyline.jpg" alt=" Toronto skyline">
+            <!--image-->
+            <figcaption>Toronto Skyline</figcaption>
+            <!--image description-->
+        </figure>
+        <figure><img class="subimg" src="../../media/Shampreet/images/vancouver.jpg" alt="Image of Vancouver harbour">
+            <figcaption>Vancouver Harbour</figcaption>
+        </figure>
+        <figure><img class="subimg" src="../../media/Shampreet/images/Humber_arch_bridge.jpg"
+                alt="Image of humber arch bridge">
+            <figcaption>Humber Arch Bridge</figcaption>
+        </figure>
+        <figure><img class="subimg" src="../../media/Shampreet/images/country_road.jpg" alt="Country road in fall">
+            <figcaption>Country Road in Fall</figcaption>
+        </figure>
+        <figure><img class="subimg" src="../../media/Shampreet/images/nathan_phillip_square.jpg" alt="Toronto sign">
+            <figcaption>Nathan Phillip Square</figcaption>
+        </figure>
+        <figure><img class="subimg" src="../../media/Shampreet/images/vancouver_island.jpg" alt="Vancouver island beach">
+            <figcaption>Vancouver Island Beach</figcaption>
+        </figure>
+    </div>
+    <br><br>
+    <!-- slideshow container-->
+    <div class="slideshow-container">
+        <!-- div for slides -->
+        <div class="mySlides">
+            <!--Caption-->
+            <div class="caption">
+                <p>Montreal</p>
+            </div>
+            <!-- image link-->
+            <a href="../../html/Deepanker/montreal.html">
+                <img src="../../media/Shampreet/images/montreal-slide.jpg" class="slideshow" alt="A garden in montreal"></a>
+        </div>
+        <div class="mySlides">
+            <div class="caption">
+                <p>Toronto</p>
+            </div>
+            <a href="../../html/Fahad/Home.html">
+                <img src="../../media/Shampreet/images/toronto-slide.jpg" class="slideshow" alt="Toronto skyline"></a>
+        </div>
+        <div class="mySlides">
+            <div class="caption">
+                <p>Vancouver</p>
+            </div>
+            <a href="../../html/Sukhman/vancouver.html">
+                <img src="../../media/Shampreet/images/vancouver-slide.jpg" class="slideshow" alt="A island in vancouver"></a>
+        </div>
+        <!-- function call on click-->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <p id="p2">And Many More</p>
+    <br>
+    <video src="../../media/Shampreet/videos/Niagra_fall.mp4" preload="auto" controls></video>
+    <!--a short video of niagra fall-->
+    <p id="p3">Niagra Falls , Ontario</p>
+    <h2><i class="fa-solid fa-map-location-dot fa-2x"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+        <!--icon-->
+        Start making your<br>Itenaries with us
+    </h2>
+    <footer>
+        <!--footer tag for footer-->
+        <div class="col1">
+            <!--column 1-->
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="../../html/Shampreet/contact_us.html">Contact Us</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+        <div class="col2">
+            <!--column 2-->
+            <ul>
+                <li><a href="../../html/Shampreet/faq.html">FAQ</a></li>
+                <li><a href="../../html/Shampreet/feedback.html">Feedback</a></li>
+            </ul>
+        </div>
+        <div class="col3">
+            <!--column 3-->
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+    <script src="../../javascript/shampreet-js/shampreet.js"></script>
+</body>
+</html>

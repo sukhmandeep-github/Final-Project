@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../../css/deepankerCss.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../../media/Deepanker/images/favicon-16x16.png"
+    />
+    <script
+      src="https://kit.fontawesome.com/949cd67394.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Montreal</title>
+  </head>
+  <body onload="typeWriter();">
+    <header class="header">
+      <nav>
+        <a href="./../Shampreet/index.html"
+          ><img src="../../media/Deepanker/images/image.png" alt="icon"
+        /></a>
+        <div class="anchor-container">
+          <a href="../../html/Shampreet/index.html">Home</a>
+          <a href="https://www.cbc.ca/news/canada" target="_blank">News</a>
+          <a
+            href="https://www.theweathernetwork.com/ca/weather/quebec/montreal"
+            target="_blank"
+            >Weather</a
+          >
+          <a href="./montrealhotel.html">Hotels</a>
+          <a href="./montrealthingstodo.html">Things to do</a>
+          <a href="./../Shampreet/contact_us.html">Contact Us</a>
+        </div>
+      </nav>
+    </header>
+
+    <header class="mobheader">
+      <nav>
+        <a href="./../Shampreet/index.html"
+          ><img src="../../media/Deepanker/images/image.png" alt="icon"
+        /></a>
+
+        <i class="fa-sharp fa-solid fa-bars" onclick="header()"></i>
+      </nav>
+      <div class="hamburgeroptions">
+        <a href="../../html/Shampreet/index.html">Home</a>
+        <a href="https://www.cbc.ca/news/canada" target="_blank">News</a>
+        <a
+          href="https://www.theweathernetwork.com/ca/weather/quebec/montreal"
+          target="_blank"
+          >Weather</a
+        >
+        <a href="./montrealhotel.html">Hotels</a>
+        <a href="./montrealthingstodo.html">Things to do</a>
+        <a href="./../Shampreet/contact_us.html">Contact Us</a>
+      </div>
+    </header>
+
+    <h1 id="autotypetext"></h1>
+    <div class="slideshow-container">
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <img
+          src="./../../media/Deepanker/images/montreal1.jpg"
+          style="width: 100%"
+        />
+        <div class="text">DOWNTOWN</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img
+          src="./../../media/Deepanker/images/montreal2.jpg"
+          style="width: 100%"
+        />
+        <div class="text">Cruises & boat tours</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img
+          src="./../../media/Deepanker/images/montreal3.jpg"
+          style="width: 100%"
+        />
+        <div class="text">Canadian Tire Centre</div>
+      </div>
+
+      <!-- Next and previous buttons -->
+      <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+    </div>
+
+    <!-- <div class="content">
+      <h1>Bienvenue à Montréal</h1>
+      <h3>The French capital of Canada</h3>
+    </div> -->
+
+    <div class="data">
+      <p>
+        Montreal, in the southwest of French-speaking Quebec, is a diverse and
+        cosmopolitan island city. Taking its name from Mount Royal—the
+        mini-mountain right located in the city center—Montreal boasts a rich
+        history and still exudes old-school European elegance; nowadays it’s
+        also renowned for its unbridled creativity, innovative cuisine, and
+        vibrant festivals.
+      </p>
+
+      <p>
+        Climb to Mount Royal’s summit and you’ll be rewarded with panoramic
+        views of the island of Montreal and St. Lawrence River. St. Joseph’s
+        Oratory, Canada’s largest church, is located on the mountain’s
+        northwestern slope, with 99 steps leading to its entrance.
+      </p>
+    </div>
+
+    <hr />
+
+    <h1>What to see & Where to stay</h1>
+
+    <div id="content" class="main-area">
+      <ul class="cards">
+        <li class="card-item double">
+          <a href="#">
+            <div class="card">
+              <img
+                src="../../media/Deepanker/images/hotel1.jpg"
+                alt="Holiday Inn Montreal Centre"
+              />
+              <div class="caption">
+                <h3 class="caption-title">Holiday Inn Montreal Centre</h3>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="card-item">
+          <a href="#">
+            <div class="card">
+              <img
+                src="../../media/Deepanker/images/hotel2.webp"
+                alt="Hotel Universel Montréal"
+              />
+              <div class="caption">
+                <h3 class="caption-title">Hotel Universel Montréal</h3>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="card-item">
+          <a href="#">
+            <div class="card">
+              <img
+                src="../../media/Deepanker/images/hotel3.jpg"
+                alt="Hotel Bonaventure Montreal"
+              />
+              <div class="caption">
+                <h3 class="caption-title">Hotel Bonaventure Montreal</h3>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="card-item">
+          <a href="#">
+            <div class="card">
+              <img
+                src="../../media/Deepanker/images/ttd1.png"
+                alt="Hot Air Balloon Ride"
+              />
+              <div class="caption">
+                <h3 class="caption-title">Hot Air Balloon Ride</h3>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="card-item">
+          <a href="#">
+            <div class="card">
+              <img
+                src="../../media/Deepanker/images/ttd2.webp"
+                alt="Roue de Montréal"
+              />
+              <div class="caption">
+                <h3 class="caption-title">Roue de Montréal</h3>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <hr />
+
+    <div class="sub-content">
+      <div class="hotel">
+        <h2>Hotels</h2>
+        <a href="./montrealhotel.html">Explore Now</a>
+      </div>
+
+      <div class="thingstodo">
+        <h2>Things To Do</h2>
+        <a href="./montrealthingstodo.html">Explore Now</a>
+      </div>
+    </div>
+    <form action="" name="emailsignup">
+      <div class="emailsignup">
+        <div class="emailheading">
+          <h2>Sign Up for Newsletters</h2>
+        </div>
+        <div class="innerdiv">
+          <div class="subdiv">
+            <label>First Name</label>
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="First Name"
+            />
+          </div>
+          <div class="subdiv">
+            <label>Last Name</label>
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Second Name"
+            />
+          </div>
+          <div class="subdiv">
+            <label>Email</label>
+            <input type="email" id="email" name="email" placeholder="Email" />
+          </div>
+        </div>
+        <input
+          type="button"
+          value="Submit"
+          id="sumbit"
+          onclick="signupvalidation()"
+        />
+      </div>
+    </form>
+    <footer>
+      <div class="col1">
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="./../Shampreet/contact_us.html">Contact Us</a></li>
+          <li><a href="./../Shampreet/faq.html">FAQ</a></li>
+          <li><a href="#"></a></li>
+        </ul>
+      </div>
+      <div class="col2">
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="./../Shampreet/feedback.html">Feedback</a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+        </ul>
+      </div>
+      <div class="col3">
+        <a href="https://www.facebook.com/"
+          ><i class="fa-brands fa-facebook fa-2x"></i
+        ></a>
+        <a href="https://twitter.com/?lang=en"
+          ><i class="fa-brands fa-twitter fa-2x"></i
+        ></a>
+        <a href="https://www.instagram.com/"
+          ><i class="fa-brands fa-instagram fa-2x"></i
+        ></a>
+      </div>
+      <!-- <div class="col4">
+        <a href="http://eepurl.com/ibA2iz" class="button" target="_blank"
+          >Newsletter Subscription</a
+        >
+      </div> -->
+    </footer>
+    <script src="../../javascript/deepanker.js"></script>
+  </body>
+</html>
